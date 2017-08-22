@@ -67,12 +67,14 @@ Window
       Image{
             source    : "matahari.png"
             transform : Rotation{origin.x : 30; origin.y : 30; axis{x : 0; y : 1; z : 0} angle : 54}
+            //angle makin gede, makin penyok
+            //cari tau axis ?
            }
 
       Image{
-                  source    : "AwanPutih.png"
-                  transform : Rotation{origin.x : 30; origin.y : 30; axis{x : 0; y : 1; z : 0} angle :  2}
-                  //angle ga bisa lebih gede dari 70, find why ?
+            source    : "AwanPutih.png"
+            transform : Rotation{origin.x : 10; origin.y : 30; axis{x : 0; y : 1; z : 0} angle :  2}
+            //angle ga bisa lebih gede dari 70, find why ?
            }
      }
  }
